@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./api/
+    container_name: flask_container
+    restart: always
+    ports:
+      - "80:5000"
+    depends_on:
+      - db
+
+  db:
+    build: ./sql/
+    container_name: db-beers
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: beer
+
