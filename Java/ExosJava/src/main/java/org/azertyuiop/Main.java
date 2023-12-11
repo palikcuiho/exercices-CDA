@@ -8,6 +8,9 @@ public class Main {
         System.out.println(Ex2.calculerPrixTTC(100));
         System.out.println(Ex2.calculerPrixTTC(50));
 //        System.out.println(Ex2.calculerPrixTTC(-4));
+        System.out.println(Ex3.estUnPalindrome(121));
+        System.out.println(Ex3.estUnPalindrome(123));
+//        System.out.println(Ex3.estUnPalindrome(-3));
 
     }
 }
