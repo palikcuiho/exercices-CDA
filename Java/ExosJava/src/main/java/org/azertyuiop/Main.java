@@ -8,5 +8,6 @@ public class Main {
         System.out.println(Ex2.calculerPrixTTC(100));
         System.out.println(Ex2.calculerPrixTTC(50));
 //        System.out.println(Ex2.calculerPrixTTC(-4));
+
     }
 }
