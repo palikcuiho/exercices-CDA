@@ -6,6 +6,12 @@ public class Identite {
     public String nom;
     public String prenom;
 
+    public Identite(Adresse adresse, String nom, String prenom) {
+        this.adresse = adresse;
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
     /**
      * Retourne le nom complet du salarié
      */
