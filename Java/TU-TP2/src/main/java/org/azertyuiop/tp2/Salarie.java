@@ -2,13 +2,13 @@ package org.azertyuiop.tp2;
 
 public abstract class Salarie {
     public Salaire salaire;
+    public Identite identite;
 
     public Salarie(Salaire salaire, Identite identite) {
         this.salaire = salaire;
         this.identite = identite;
     }
 
-    public Identite identite;
 
     /**
      * Nombre d'heures correspondant à un temps plein
@@ -23,7 +23,7 @@ public abstract class Salarie {
     public void travailler(double nombreHeures){
         String nomSalarie = this.identite.getNomComplet();
         double salaire = this.salaire.payer(nombreHeures);
-        System.out.println("Le salarié " + this.identite.getNomComplet()
+        System.out.println("Le salarié " + nomSalarie
                 + " a travaillé "
                 + nombreHeures
                 + " heures et a perçu "
