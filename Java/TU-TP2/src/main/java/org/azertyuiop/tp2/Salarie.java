@@ -30,6 +30,6 @@ public abstract class Salarie {
     }
 
     public void augmenter(float pourcentage){
-        this.salaire.tauxHoraire = this.salaire.tauxHoraire*pourcentage/100;
+        this.salaire.tauxHoraire = this.salaire.tauxHoraire*(100+pourcentage)/100;
     }
 }
