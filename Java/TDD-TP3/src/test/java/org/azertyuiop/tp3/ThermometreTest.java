@@ -41,6 +41,15 @@ public class ThermometreTest {
         assertEquals(data1, result);
     }
 
-
+    @ParameterizedTest()
+    @CsvSource({
+            "-1,-2,-3",
+            "-4,-5,-6"
+    })
+    public void should_return_biggest_negative(int data1, int data2, int data3){
+        int[] temperatures = {data1,data2,data3};
+        int result = thermometre.getTemperatureClosestToZero(temperatures);
+        assertEquals(data1, result);
+    }
 
 }
