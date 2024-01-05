@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aXQGBVcdd8WbON42Do2JwYdvac" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,9 +27,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ThermometreTest.executor": "Run",
     "JUnit.ThermometreTest.should_return_0_when_array_is_empty.executor": "Run",
     "JUnit.ThermometreTest.should_return_1_if_array_is_123.executor": "Run",
     "JUnit.ThermometreTest.should_return_1_when_array_is_123.executor": "Run",
+    "JUnit.ThermometreTest.should_return_biggest_negative.executor": "Run",
     "JUnit.ThermometreTest.should_return_smallest_positive.executor": "Run",
     "JUnit.ThermometreTest.should_throw_if_array_is_too_big.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -53,8 +55,8 @@
       <recent name="C:\Repos\exercices-CDA\Java\TDD-TP3\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThermometreTest.should_return_smallest_positive">
-    <configuration name="ThermometreTest.should_return_0_when_array_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ThermometreTest">
+    <configuration name="ThermometreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-TP3" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +66,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
       <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
-      <option name="METHOD_NAME" value="should_return_0_when_array_is_empty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThermometreTest.should_return_biggest_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-TP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.azertyuiop.tp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
+      <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
+      <option name="METHOD_NAME" value="should_return_biggest_negative(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThermometreTest.should_return_smallest_positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-TP3" />
       <extension name="coverage">
@@ -118,29 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThermometreTest.should_throw_if_array_is_too_big" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-TP3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.azertyuiop.tp3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
-      <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
-      <option name="METHOD_NAME" value="should_throw_if_array_is_too_big" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThermometreTest" />
+        <item itemvalue="JUnit.ThermometreTest.should_return_biggest_negative" />
         <item itemvalue="JUnit.ThermometreTest.should_return_smallest_positive" />
         <item itemvalue="JUnit.ThermometreTest.should_return_1_if_array_is_123" />
         <item itemvalue="JUnit.ThermometreTest.should_return_1_when_array_is_123" />
-        <item itemvalue="JUnit.ThermometreTest.should_throw_if_array_is_too_big" />
-        <item itemvalue="JUnit.ThermometreTest.should_return_0_when_array_is_empty" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +159,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/azertyuiop/tp3/ThermometreTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
