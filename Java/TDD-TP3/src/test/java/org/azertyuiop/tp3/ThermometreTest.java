@@ -2,6 +2,8 @@ package org.azertyuiop.tp3;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -28,12 +30,17 @@ public class ThermometreTest {
                 () -> thermometre.getTemperatureClosestToZero(temperatures));
     }
 
-    @Test
-    public void should_return_1_if_array_is_123(){
-        int[] temperatures = {1,2,3};
+    @ParameterizedTest()
+    @CsvSource({
+            "1,2,3",
+            "4,5,6"
+    })
+    public void should_return_smallest_positive(int data1, int data2, int data3){
+        int[] temperatures = {data1,data2,data3};
         int result = thermometre.getTemperatureClosestToZero(temperatures);
-        assertEquals(1, result);
+        assertEquals(data1, result);
     }
+
 
 
 }
