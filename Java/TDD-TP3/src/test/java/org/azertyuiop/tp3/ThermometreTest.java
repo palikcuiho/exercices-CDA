@@ -28,5 +28,12 @@ public class ThermometreTest {
                 () -> thermometre.getTemperatureClosestToZero(temperatures));
     }
 
+    @Test
+    public void should_return_1_if_array_is_123(){
+        int[] temperatures = {1,2,3};
+        int result = thermometre.getTemperatureClosestToZero(temperatures);
+        assertEquals(1, result);
+    }
+
 
 }
