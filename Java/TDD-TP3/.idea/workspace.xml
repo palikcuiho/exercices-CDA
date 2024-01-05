@@ -28,6 +28,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.ThermometreTest.should_return_0_when_array_is_empty.executor": "Run",
+    "JUnit.ThermometreTest.should_throw_if_array_is_too_big.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +50,7 @@
       <recent name="C:\Repos\exercices-CDA\Java\TDD-TP3\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ThermometreTest.should_throw_if_array_is_too_big">
     <configuration name="ThermometreTest.should_return_0_when_array_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-TP3" />
       <extension name="coverage">
@@ -66,8 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThermometreTest.should_throw_if_array_is_too_big" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-TP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.azertyuiop.tp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
+      <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
+      <option name="METHOD_NAME" value="should_throw_if_array_is_too_big" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThermometreTest.should_throw_if_array_is_too_big" />
         <item itemvalue="JUnit.ThermometreTest.should_return_0_when_array_is_empty" />
       </list>
     </recent_temporary>
@@ -80,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704462347200</updated>
-      <workItem from="1704462348271" duration="1119000" />
+      <workItem from="1704462348271" duration="2448000" />
     </task>
     <servers />
   </component>
