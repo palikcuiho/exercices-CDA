@@ -52,4 +52,14 @@ public class ThermometreTest {
         assertEquals(data1, result);
     }
 
+    @ParameterizedTest()
+    @CsvSource({
+            "-15, -2, -8, -4, 2",
+    })
+    public void should_return_positive_value_if_tie(int data1, int data2, int data3, int data4, int data5) {
+        int[] temperatures = {data1, data2, data3, data4, data5};
+        int result = thermometre.getTemperatureClosestToZero(temperatures);
+        assertEquals(data5, result);
+    }
+
 }

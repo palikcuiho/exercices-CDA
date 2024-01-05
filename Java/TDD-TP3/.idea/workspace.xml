@@ -25,28 +25,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ThermometreTest.executor": "Run",
-    "JUnit.ThermometreTest.should_return_0_when_array_is_empty.executor": "Run",
-    "JUnit.ThermometreTest.should_return_1_if_array_is_123.executor": "Run",
-    "JUnit.ThermometreTest.should_return_1_when_array_is_123.executor": "Run",
-    "JUnit.ThermometreTest.should_return_biggest_negative.executor": "Run",
-    "JUnit.ThermometreTest.should_return_smallest_positive.executor": "Run",
-    "JUnit.ThermometreTest.should_throw_if_array_is_too_big.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Repos/exercices-CDA/Java/TDD-TP3/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ThermometreTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_return_0_when_array_is_empty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_return_1_if_array_is_123.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_return_1_when_array_is_123.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_return_biggest_negative.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_return_smallest_positive.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThermometreTest.should_throw_if_array_is_too_big.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repos/exercices-CDA/Java/TDD-TP3/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.azertyuiop.tp3" />
@@ -55,7 +55,7 @@
       <recent name="C:\Repos\exercices-CDA\Java\TDD-TP3\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThermometreTest">
+  <component name="RunManager" selected="JUnit.ThermometreTest.should_return_positive_value_if_tie">
     <configuration name="ThermometreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-TP3" />
       <extension name="coverage">
@@ -87,22 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThermometreTest.should_return_1_when_array_is_123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD-TP3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.azertyuiop.tp3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
-      <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
-      <option name="METHOD_NAME" value="should_return_1_when_array_is_123" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThermometreTest.should_return_biggest_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-TP3" />
       <extension name="coverage">
@@ -114,6 +98,22 @@
       <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
       <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
       <option name="METHOD_NAME" value="should_return_biggest_negative(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThermometreTest.should_return_positive_value_if_tie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-TP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.azertyuiop.tp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.azertyuiop.tp3" />
+      <option name="MAIN_CLASS_NAME" value="org.azertyuiop.tp3.ThermometreTest" />
+      <option name="METHOD_NAME" value="should_return_positive_value_if_tie(int,int,int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThermometreTest.should_return_positive_value_if_tie" />
         <item itemvalue="JUnit.ThermometreTest" />
         <item itemvalue="JUnit.ThermometreTest.should_return_biggest_negative" />
         <item itemvalue="JUnit.ThermometreTest.should_return_smallest_positive" />
         <item itemvalue="JUnit.ThermometreTest.should_return_1_if_array_is_123" />
-        <item itemvalue="JUnit.ThermometreTest.should_return_1_when_array_is_123" />
       </list>
     </recent_temporary>
   </component>
